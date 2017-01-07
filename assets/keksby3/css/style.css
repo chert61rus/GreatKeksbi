@@ -8,6 +8,12 @@
     background-color: #eeeeee;
 }
 
+.price-list {
+    width: 100%;
+    border-collapse: collapse;
+}
+
 .price-list td {
-    border: 1px solid #333333;
+    border: solid #333333;
+
 }
