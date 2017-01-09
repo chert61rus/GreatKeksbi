@@ -1,6 +1,11 @@
 body  {
     padding: 0;
     margin: 0;
+    font-size: 18px;
+    line-height:24px;
+    font-family: Arial,sans-serif;
+    color: #404040;
+    background: white;
 }
 
 .page-header,
