@@ -96,6 +96,14 @@ body {
     font-weight: bold;
     color: #a38b70 ;
 }
+.reference-title{
+    font-size: 24px;
+}
+.reference-source{
+    font-size: 16px;
+    color: #666666;
+    font-style: italic;
+}
 
 .page-footer {
     margin-top: 20px;
