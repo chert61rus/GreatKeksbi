@@ -21,8 +21,19 @@ body  {
 .main-nav{
     list-style: none;
     text-transform: uppercase;
+
+}
+.main-nav a{
+    color: white;
+    text-decoration: none;
+}
+.main-nav a:hover{
+    text-decoration: underline;
 }
 
+.main-nav a:active{
+    color: rgba(255,255,255,0.3) ;
+}
 .page-footer {
     margin-top: 20px;
 }
