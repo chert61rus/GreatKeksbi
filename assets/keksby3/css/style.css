@@ -94,7 +94,7 @@ body {
 }
 .cat-reference dd img{
     border-radius: 5px;
-} 
+}
 .section-title{
     font-family: Georgia,serif;
     font-size: 45px;
@@ -109,6 +109,16 @@ body {
     font-size: 16px;
     color: #666666;
     font-style: italic;
+}
+.reference-source a{
+    color: #a38b70;
+}
+.reference-source a:hover{
+    color: #8d745a;
+}
+
+.reference-source a:active{
+    color: rgba(141, 116, 90, 0.3);
 }
 
 .page-footer {
