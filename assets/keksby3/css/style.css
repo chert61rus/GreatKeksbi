@@ -258,4 +258,13 @@ body {
     color: rgba(255, 255, 255, 0.3);
 
 }
+.footer-social b{
+    font-family: Georgia, serif;
+    font-size: 24px;
+    color: #a38b70;
+}
+.social-btn {
+    color: #ffffff;
+    text-decoration: none;
+}
 
