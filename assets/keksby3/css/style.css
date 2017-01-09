@@ -71,75 +71,91 @@ body {
 
 .feature-item {
     text-align: center;
-    border-left: 1px solid #d9d9d9 ;
+    border-left: 1px solid #d9d9d9;
 }
-.feature-item:first-child{
+
+.feature-item:first-child {
     border: none;
 }
-.feature-item p{
+
+.feature-item p {
     font-size: 16px;
 }
+
 .feature-title {
-    font-family: Georgia,serif;
+    font-family: Georgia, serif;
     font-size: 30px;
     line-height: 30px;
     font-weight: bold;
-    color: #a38b70 ;
+    color: #a38b70;
 }
-.cat-reference{
+
+.cat-reference {
     background: #f2f2f2;
 }
-.cat-reference dd{
+
+.cat-reference dd {
     font-size: 16px;
 }
-.cat-reference dd img{
+
+.cat-reference dd img {
     border-radius: 5px;
 }
-.section-title{
-    font-family: Georgia,serif;
+
+.section-title {
+    font-family: Georgia, serif;
     font-size: 45px;
     line-height: 55px;
     font-weight: bold;
-    color: #a38b70 ;
+    color: #a38b70;
 }
-.reference-title{
+
+.reference-title {
     font-size: 24px;
 }
-.reference-source{
+
+.reference-source {
     font-size: 16px;
     color: #666666;
     font-style: italic;
 }
-.reference-source a{
+
+.reference-source a {
     color: #a38b70;
 }
-.reference-source a:hover{
+
+.reference-source a:hover {
     color: #8d745a;
 }
 
-.reference-source a:active{
+.reference-source a:active {
     color: rgba(141, 116, 90, 0.3);
 }
 
-.review-item{
+.review-item {
     font-size: 16px;
-    border-left: 3px solid#a38b70 ;
+    border-left: 3px solid #a38b70;
 }
-.review-author{
+
+.review-author {
     font-style: italic;
     font-weight: bold;
 }
-.popular-and-price{
-    background:#f2f2f2 ;
+
+.popular-and-price {
+    background: #f2f2f2;
 }
-.catalog-item{
+
+.catalog-item {
     font-size: 16px;
 
 }
-.catalog-item h3{
+
+.catalog-item h3 {
     font-size: 16px;
     color: #000000;
 }
+
 .page-footer {
     margin-top: 20px;
 }
@@ -178,10 +194,34 @@ body {
 .feedback-form-group {
     padding: 10px 0;
 }
-.feedback-tip{
+
+.feedback-tip {
     font-size: 16px;
 }
-.feedback-form-group label{
+
+.feedback-form-group label {
     text-transform: uppercase;
     font-size: 12px;
 }
+
+.feedback-form input[type="text"],
+.feedback-form select,
+.feedback-form textarea {
+    font: inherit;
+    color: inherit;
+
+    border: 2px solid #d5d5d5;
+}
+
+.feedback-form input[type="text"]:hover,
+.feedback-form select:hover,
+.feedback-form textarea:hover {
+    border-color: #bebebe;
+}
+
+.feedback-form input[type="text"]:focus,
+.feedback-form select:focus,
+.feedback-form textarea:focus {
+    border-color: #8d745a;
+}
+
