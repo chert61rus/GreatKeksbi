@@ -147,15 +147,18 @@ body {
 .price-list {
     width: 100%;
     border-collapse: collapse;
+    line-height: 30px;
 }
 
 .price-list th {
     font-weight: normal;
     text-align: left;
+    font-size: 14px;
+    text-transform: uppercase;
 }
 
 .price-list td {
-    border: 1px solid #333333;
+    border: 1px solid #d8d8d8;
 }
 
 .price-list th,
@@ -169,6 +172,7 @@ body {
 
 .price-list .price-name {
     font-weight: bold;
+    color: #000000;
 }
 
 .feedback-form-group {
